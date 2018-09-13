@@ -8,7 +8,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Product {
-
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long itemId;
